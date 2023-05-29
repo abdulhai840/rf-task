@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.MuiAutocomplete-popupIndicator {
+  /* padding: 2px; */
+  margin-right: -8px !important;
+  margin-top: -14px !important;
+  height: 55px !important;
+  background-color: #dee2e6 !important;
+  border-radius: 0 !important;
+  width: 50px !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.MuiFormLabel-asterisk {
+  color: red !important;
+}
+
+input[type="time" i] {
+  background: none !important;
+  border: none !important;
 }
